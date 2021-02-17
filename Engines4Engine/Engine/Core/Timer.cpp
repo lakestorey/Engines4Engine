@@ -1,11 +1,9 @@
 #include "Timer.h"
 
 Timer::Timer() : prevTicks(0), currentTicks(0) {
-
 }
 
 Timer::~Timer() {
-
 }
 
 void Timer::Start() {

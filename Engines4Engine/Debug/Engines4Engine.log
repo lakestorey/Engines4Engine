@@ -1,6 +1,8 @@
 ﻿  CoreEngine.cpp
+  GameScene.cpp
+  Game1.cpp
   Main.cpp
-  Timer.cpp
-C:\Users\lakeb\Desktop\Desktop\Classes\Engines 4\Engines4Engine\Engines4Engine\Engine\Core\Timer.cpp(25,33): warning C4244: 'initializing': conversion from 'float' to 'unsigned int', possible loss of data
+  Window.cpp
+  StartScene.cpp
   Generating Code...
   Engines4Engine.vcxproj -> C:\Users\lakeb\Desktop\Desktop\Classes\Engines 4\Engines4Engine\Debug\Engines4Engine.exe
