@@ -37,7 +37,6 @@ bool CoreEngine::OnCreate(std::string name_, int width_, int height_) {
 
 	//example of a debug line
 	//could use __FILE__ but it would dump the file directory instead of just the name
-	//Debug::Info("Everything Worked", "CoreEngine.cpp", __LINE__);
 
 	timer.Start();
 	return isRunning = true;
@@ -83,7 +82,7 @@ void CoreEngine::Update(const float deltaTime_) {
 }
 
 void CoreEngine::Render() {
-	glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+	glClearColor(0.5f, 0.5f, 0.5f, 1.0f);
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	if (gameInterface) {
 		gameInterface->Render();

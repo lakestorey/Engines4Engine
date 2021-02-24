@@ -1,2 +1,2 @@
 [INFO]: start scene created in: StartScene.cpp on line: 13
-[INFO]: game scene created in: GameScene.cpp on line: 11
+[INFO]: game scene created in: GameScene.cpp on line: 13
