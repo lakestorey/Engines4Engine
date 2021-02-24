@@ -12,8 +12,5 @@ public:
 	bool OnCreate() override;
 	void Update(const float deltaTime_) override;
 	void Render() override;
-
-private:
-	GameScene* gameScene;
 };
 #endif //!STARTSCENE_H

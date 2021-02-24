@@ -1,18 +1,15 @@
 #include "StartScene.h"
 
-StartScene::StartScene() :gameScene(nullptr){
+StartScene::StartScene(){
 }
 
 StartScene::~StartScene() {
-	delete gameScene;
-	gameScene = nullptr;
 }
 
 bool StartScene::OnCreate() {
 	//std::cout << "start scene" << std::endl;
 	Debug::Info("start scene created", "StartScene.cpp", __LINE__);
-	gameScene = new GameScene();
-	gameScene->OnCreate();
+	CoreEngine::GetInstance()->SetCurrentScene(1);
 	return true;
 }
 
